@@ -1,0 +1,35 @@
+.main__container {
+    height: 1798px;
+    margin-top: 96px;
+}
+
+.main__secondary {
+    height: 602px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__secondary div {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.main__secondary span {
+    color: #8E2424;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.main__secondary h2 {
+    color: #101828;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.main__secondary p {
+    color: #667085;
+    font-size: 20px;
+}
+

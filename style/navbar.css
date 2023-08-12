@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    border: border-box;
+    font-family: 'inter', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar__logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navbar__logo h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #3A404E;
+}
+
+.navbar__list {
+    display: flex;
+    list-style: none;
+    gap: 34px;
+}
+
+.navbar__list li a {
+    color: #667085;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.navbar__button {
+    display: flex;
+    gap: 8px;
+}
+
+.navbar__button button {
+    border: none;
+    background-color: transparent;
+    color: #667085;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar__button button:hover {
+    color: #FFF;
+    background-color: #8E2424;
+    width: 112px;
+    height: 44px;
+    border-radius: 8px;
+}
