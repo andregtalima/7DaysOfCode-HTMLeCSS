@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 24px;
 }
 
 .container span {
@@ -15,7 +16,7 @@
 .container h1 {
     color: #101828;
     font-weight: 600;
-    font-size: 48px;
+    font-size: 3rem;
 }
 
 .container__paragrafo {
@@ -26,6 +27,6 @@
 }
 
 .container p {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #667085;
 }
