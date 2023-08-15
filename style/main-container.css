@@ -1,5 +1,5 @@
 .main__container {
-    height: 1798px;
+    margin-bottom: 60px;
     margin-top: 96px;
 }
 
@@ -36,8 +36,10 @@
     font-size: 1.25rem;
 }
 
-.main__secondary figure {
+.main__secondary img {
     margin-bottom: 64px;
+    text-align: center;
+    width: 100%;
 }
 
 .main__tertiary {
@@ -87,7 +89,6 @@
     margin: 0 auto;
     width: 768px;
     height: 518px;
-    margin-bottom: 96px;
 }
 
 
